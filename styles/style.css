@@ -1,0 +1,134 @@
+body {
+	font-family: arial, sans-serif;
+	color: #000;
+}
+
+#navbar {
+	position: absolute;
+	right: 0px;
+	width: 100%;
+}
+
+
+
+.navbar-buttons {
+	height: 20px;
+	width: 20px;
+}
+
+
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+
+a {
+	display: block;
+	width: 80px;
+	color: #000;
+}
+
+a:link {
+		text-decoration: none;
+
+}
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+
+}
+
+li {
+	display: inline;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.navbar-links {
+	float: right;
+}
+
+
+
+#google-search {
+	text-align: center;
+}
+
+#logo {
+	padding-top: 150px;
+	width: 272;
+	height: 92;
+}
+
+#search-input {
+height: 118px;
+}
+
+
+#search {
+width: 500px;
+height: 26px;
+}
+
+.search-buttons {
+	font-size: 13px;
+	background-color: #F2F2F2;
+	border-radius: 0;
+	border-width: 0;
+	border-color: #F2F2F2;
+	-webkit-appearance: none;
+	border-radius: 0;
+	outline: medium none;
+	height: 36px;
+	width: 135px;
+	margin: 11px 4px;
+	padding-top: 0px 16px;
+}
+
+.search-buttons:hover {
+	border-radius: 2px;
+	border-width: 1px;
+	border-color: #F2F2F2;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #F2F2F2;
+	border-radius: 2px;
+	border-width: 1px;
+	outline: medium none;
+	height: 36px;
+	margin: 2px;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+.footer-links-left {
+	float: left;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-left: 6px;
+
+}
+
+.footer-links-right {
+	float: right;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
